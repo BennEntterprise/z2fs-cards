@@ -1,8 +1,8 @@
 [x] clear out exisiting react boilerplate that isn't needed
+[x] add colors to the lib package (so we can call them by name)
 
 
 
-[] add colors to the lib package (so we can call them by name)
 [] mock out containers:
     [] modeContainer
     [] statsContainer
