@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "formulahendry.auto-close-tag",
+        "coenraads.bracket-pair-colorizer",
+        "naumovs.color-highlight",
+        "dsznajder.es7-react-js-snippets",
+        "eamodio.gitlens",
+        "wayou.vscode-todo-highlight",
+        "gruntfuggly.todo-tree"
+    ]
+}
