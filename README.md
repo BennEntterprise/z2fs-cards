@@ -22,6 +22,10 @@ I also realize that many developers will make a flashcard app as part of their p
 
 As someone who loves to help others learn I am going to make this app available to anyone who wants to view it. Hopefully the subjects and things I've pulled together will be useful for your learning journey too!
 
+### Mocks/Scratchwork
+https://idroo.com/board-nzmt35uM0c
+https://www.figma.com/file/E0ElFeGT4DZEVbLYXuOWQl/ZeroToFullStack-o-cards!?node-id=2%3A3
+
 
 ### Me
 
