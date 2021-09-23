@@ -1,0 +1,33 @@
+[] clear out exisiting react boilerplate that isn't needed
+
+
+
+[] add colors to the lib package (so we can call them by name)
+[] mock out containers:
+    [] modeContainer
+    [] statsContainer
+    [] allDecksContainer
+    [] activeCardContainer
+    [] controlsContainer
+
+Begin filling in containers:
+    modeContainer
+        - [] style -> color, positon, size
+        - [] text that is clickable
+        - [] text that has an 'isActiveClass'
+        - [] redux state to switch mode.
+        - [] alert on edit (sorry this feature is comming soon!)
+    activeCardContainer
+        - [] frontText
+        - [] onClick that flips card (transform(x,y,z=180?))
+        - [] backText
+    controlContainer
+        - [] add 3 button, in a layout.
+        - [] connect buttons to proper redux state
+    statsContainer
+        - [] put ups some metrics that will be tracked (eventually these will all be in reudx.)
+    allDecksContainer
+        - [] Start the Data Model, Different file for each category.
+        - [] combine all categories into one
+        - [] inject combined decks into redux.
+        - [] ensure x/+ will push the next card and track stats.
