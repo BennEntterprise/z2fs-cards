@@ -20,7 +20,7 @@ const counterReducer = (state = counterInitialState, action: any) => {
         case COUNTER_DECREMENT:
             return {
                 ...state,
-                count: state.count + 0
+                count: state.count - 1
             };
         case COUNTER_RESET:
             return {
