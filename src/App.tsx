@@ -5,6 +5,7 @@ import Counter from './components/Counter'
 
 // Containers
 import AllDecksContainer from './containers/AllDecksContainer';
+import PlayingContainer from './containers/PlayingContainer';
 import StatsContainer from './containers/StatsContainer';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       </header>
       <main>
         <AllDecksContainer/>
+        <PlayingContainer />
         <StatsContainer />
         {/* <Counter /> */}
       </main>

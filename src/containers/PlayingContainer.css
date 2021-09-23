@@ -1,0 +1,19 @@
+/* TODO: Not thrilled with the styling here, basically the trans helps center
+on the entire screen but this won't be very friendly for alternative sizes...
+would like to utilize someting link grid perhaps.
+*/
+
+#playing-container-transparent {
+    position:absolute;
+    /* border: 10px dotted black; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#playing-container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}

@@ -5,9 +5,9 @@
 
 [] mock out containers:
     [] modeContainer
-    [] statsContainer
+    [x] statsContainer
     [x] allDecksContainer
-    [] activeCardContainer
+    [x] activeCardContainer
     [] controlsContainer
 
 Begin filling in containers:
@@ -38,3 +38,4 @@ NEXT:
 [] Pre-Commit Test/compile Hook
 [] Heroku Static Site Depoly
 [] Integrate Sass so I can write nested styles
+[] box Shadow detail on containers
