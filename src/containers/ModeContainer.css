@@ -1,0 +1,15 @@
+#mode-container{
+    width: 275px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#mode-container p {
+    padding: 5px;
+}
+
+/* TODO: For Theming, we'd like to controll this with a variable in TS (or maybe Sass?) */
+.isActive {
+    border: 2px solid #ABD2FA
+}
