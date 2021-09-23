@@ -1,46 +1,34 @@
-# Getting Started with Create React App
+# Zero to Full Stack - O - Cards
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app was scaffolded using `npx create-react-app . --template typescript`. 
+Imediately afterwards it was rigged with `redux` using `react-redux`.
 
-## Available Scripts
+You can view the standard CRA Readme. It's also [Included in this project](./docs/REACTREADME.md)
 
-In the project directory, you can run:
+Check those out here:
 
-### `yarn start`
+- [Create-React-App](https://create-react-app.dev/docs/adding-typescript/)
+- [React-redux](https://react-redux.js.org/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## About
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+As a was learning to code I reached a point where I was thought to myself... "Ok, software engineering isn't ONLY going to be about memorizing things, but there will certainly be patterns/methods/ideas/concepts that will need to be rock solid in my head."
 
-### `yarn test`
+I found myself using notebooks, scraps of paper and even index cards but at the end of the day some flash cards are where it's at.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I also realize that many developers will make a flashcard app as part of their portfolio, but I don't have one!
 
-### `yarn build`
+### Voila, a flashcard app
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+As someone who loves to help others learn I am going to make this app available to anyone who wants to view it. Hopefully the subjects and things I've pulled together will be useful for your learning journey too!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Me
 
-### `yarn eject`
+If you want to get in touch follow me on github and send a message!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## About the Repo
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is a "monorepo" meaning it will eventually contain both a front and backend, right in this one spot.
+It's built using react, typescript, redux, express, node and will be deployed on a service like netlify or heroku (I just find those quick and easy).
+In it's MVP there will be an ability to view a single stack of cards. Later on I'd like the ability to create extra packs and alter the cards themsleves. 
