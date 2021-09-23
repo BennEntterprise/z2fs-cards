@@ -5,6 +5,7 @@ import Counter from './components/Counter'
 
 // Containers
 import AllDecksContainer from './containers/AllDecksContainer';
+import StatsContainer from './containers/StatsContainer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       </header>
       <main>
         <AllDecksContainer/>
+        <StatsContainer />
         {/* <Counter /> */}
       </main>
       <footer id="footer"> This App Was Built By <a href="https://github.com/BennEntterprise">Kyle</a></footer>
