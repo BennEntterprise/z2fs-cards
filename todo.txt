@@ -6,7 +6,7 @@
 [] mock out containers:
     [] modeContainer
     [] statsContainer
-    [] allDecksContainer
+    [x] allDecksContainer
     [] activeCardContainer
     [] controlsContainer
 
@@ -37,3 +37,4 @@ NEXT:
 [] Integrate Jest Unit Testing
 [] Pre-Commit Test/compile Hook
 [] Heroku Static Site Depoly
+[] Integrate Sass so I can write nested styles
