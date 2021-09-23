@@ -1,4 +1,4 @@
-[] clear out exisiting react boilerplate that isn't needed
+[x] clear out exisiting react boilerplate that isn't needed
 
 
 
@@ -31,3 +31,9 @@ Begin filling in containers:
         - [] combine all categories into one
         - [] inject combined decks into redux.
         - [] ensure x/+ will push the next card and track stats.
+
+NEXT: 
+[] Better Typings for Redux Action/State etc
+[] Integrate Jest Unit Testing
+[] Pre-Commit Test/compile Hook
+[] Heroku Static Site Depoly
