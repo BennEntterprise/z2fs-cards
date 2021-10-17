@@ -14,13 +14,22 @@ Begin filling in containers:
     modeContainer
         - [x] style -> color, positon, size
         - [x] text that is clickable
-        - [] text that has an 'isActiveClass'
-        - [] redux state to switch mode.
-        - [] alert on edit (sorry this feature is comming soon!)
+        - [x] text that has an 'isActiveClass'
+        - [x] redux state to switch mode.
+        - [x] alert on edit (sorry this feature is comming soon!)
+    mockData
+        - add 'Linux Root Folders' Deck as ts object
+            Record<Folder,Description>
+        - add ReactLifecyle Mehtods deck as ts object
+            Record<method, description>
+        - add OWASP10 deck as tsobject
+            Record<numberedItem, description
+        - add an "all decks" state to redux
+        - add an activeDeck state to redux
+        - on +/- move to next card
     activeCardContainer
-        - [] frontText
-        - [] onClick that flips card (transform(x,y,z=180?))
-        - [] backText
+        - v0: Left/Right side to represent front/Back text
+        - v1onClick that flips card (transform(x,y,z=180?))
     controlContainer
         - [] add 3 button, in a layout.
         - [] connect buttons to proper redux state
