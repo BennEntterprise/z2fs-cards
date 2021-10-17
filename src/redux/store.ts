@@ -1,25 +1,30 @@
-import {createStore, combineReducers, compose } from 'redux' 
+import {createStore, combineReducers } from 'redux' 
 
 import { composeWithDevTools } from 'redux-devtools-extension'
 
 import { counterInitialState } from './reducers/counterReducer'
+import { modeInitialState } from './reducers/modeReducer'
 // Import Reducers
 import counterReducer from './reducers/counterReducer' 
+import modeReducer from './reducers/modeReducer'
+import { AppModes } from './lib/appModes'
 
-
-interface appState {
+export interface appState {
     counter: {
         count: number
-    }
+    },
+    mode: any
 }
 
 // Set Initial State
 const initialState: appState = {
-    counter: counterInitialState
+    counter: counterInitialState,
+    mode: modeInitialState
 }
 
 const rootReducer = combineReducers({
-     counter: counterReducer
+    counter: counterReducer,
+    mode: modeReducer,
 })
 
 const store: any =  createStore(
