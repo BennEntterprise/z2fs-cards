@@ -4,16 +4,16 @@
 
 
 [] mock out containers:
-    [] modeContainer
+    [x] modeContainer
     [x] statsContainer
     [x] allDecksContainer
     [x] activeCardContainer
-    [] controlsContainer
+    [x] controlsContainer
 
 Begin filling in containers:
     modeContainer
-        - [] style -> color, positon, size
-        - [] text that is clickable
+        - [x] style -> color, positon, size
+        - [x] text that is clickable
         - [] text that has an 'isActiveClass'
         - [] redux state to switch mode.
         - [] alert on edit (sorry this feature is comming soon!)
